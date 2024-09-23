@@ -7,19 +7,21 @@ Date Last Modified: Sept 23, 2024
 def q1():
   int1 = input("Input an integer: ")
   int1 = int(int1)
-  print(int1 + 3)
+  int1 = int1 + 3
+  print(int1)
 
 def q2():
   num1 = input("Input a number: ")
-  num1 = str(num1)
   num1 = (num1 + "4")
   num1 = float(num1)
+  num1 = num1 + 2
   print(num1)
 
 def q3():
   radius = input("Input a radius: ")
   radius = float(radius)
-  radius = radius * radius * 3.14
+  area = radius * radius * 3.14
+  print(area)
 
 def q4():
   num2 = input("Input a number: ")
@@ -29,10 +31,11 @@ def q4():
   print(num2)
 
 def q5():
-  num3 = input("input a integer: ")
+  num3 = input("Input a integer: ")
   num3 = int(num3)
   num3 = num3 + 5
   print(f"Your number + 5 is {num3}")
+
 
 
 #Comment this code out when running tests
