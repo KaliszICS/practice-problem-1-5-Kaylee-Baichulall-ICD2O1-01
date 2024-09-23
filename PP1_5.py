@@ -12,6 +12,7 @@ def q1():
 
 def q2():
   num1 = input("Input a number: ")
+  num1 = str(num1)
   num1 = (num1 + "4")
   num1 = float(num1)
   num1 = num1 + 2
@@ -31,18 +32,16 @@ def q4():
   print(num2)
 
 def q5():
-  num3 = input("Input a integer: ")
+  num3 = input("Input an integer: ")
   num3 = int(num3)
   num3 = num3 + 5
   print(f"Your number + 5 is {num3}")
 
-
-
 #Comment this code out when running tests
 #Do not comment this out when running your program normally
 
-# q1()
-# q2()
-# q3()
-# q4()
-# q5()
+q1()
+q2()
+q3()
+q4()
+q5()
